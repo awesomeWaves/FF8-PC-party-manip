@@ -17,10 +17,10 @@ $option = {
   language: :en,
   
   # Target party. Multiple settings are possible.
-  targets: [
+    targets: [
     %i[irvine zell selphie],
-    %i[irvine zell quistis],
-    %i[selphie irvine quistis],
+    %i[irvine zell rinoa],
+    %i[selphie irvine rinoa],
   ],
   # These have the same meaning
   # targets: %w[Ir,Ze,Se Ir,Ze,Qu Ir,Se,Qu],
@@ -45,8 +45,8 @@ $option = {
   last_map_rnd_counter: true,
   
   # Idling duration when traveling the final map at the fastest speed
-  # ps2fast_ja:22.0, ps2fast_na:22.7?
-  last_map_duration: 22.0,
+  # ps2fast_ja:22.0, ps2fast_na:22.7?, pc-fr-2013:21.5,
+  last_map_duration: 21.5,
   
   # If last_map_duration% 0.5 is within this range, do not wait on the last map
   last_map_safe_range: 0.10..0.40,
