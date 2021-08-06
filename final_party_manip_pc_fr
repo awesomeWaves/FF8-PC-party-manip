@@ -9,6 +9,11 @@
 #   2016/06/24
 # ・Published and updated a little after
 
+
+# Edited by awesomeWaves from original pingval script.
+# Made compatible with FF8 2013 French.
+# Different last map duration and targets.
+
 require "set"
 # require "tapp"
 
@@ -18,9 +23,12 @@ $option = {
   
   # Target party. Multiple settings are possible.
     targets: [
+    %i[irvine squall zell],
+    %i[irvine squall selphie],
+    %i[irvine squall rinoa],
     %i[irvine zell selphie],
     %i[irvine zell rinoa],
-    %i[selphie irvine rinoa],
+    %i[irvine selphie rinoa],
   ],
   # These have the same meaning
   # targets: %w[Ir,Ze,Se Ir,Ze,Qu Ir,Se,Qu],
