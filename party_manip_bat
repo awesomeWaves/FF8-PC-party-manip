@@ -1,0 +1,4 @@
+@echo off
+set /p movements="Enter movements: "
+cd "C:\Your\Ruby\Directory"
+ruby.exe "C:\Your\Ruby\Script\ultimecia.rb" 0 %movements%
